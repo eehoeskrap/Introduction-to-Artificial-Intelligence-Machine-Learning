@@ -49,9 +49,8 @@
 
 
 ## Gaussian Naive Bayes
-- 가장 널리 사용하는 방법
-- 기본 Naive Bayes 사용 시 독립 변수가 연속형 변수인 경우에는 특정 값이 될 확률이 0이 되는 문제
-- 따라서 모델을 만들 때 데이터가 가우시안 분포(Gaussian Distribution)로 설명된다고 가정
+- feature가 연속형 변수일 때 가장 널리 사용하는 방법
+- 따라서 모델을 만들 때 데이터가 가우시안 분포(Gaussian Distribution)를 따른다고 가정
 - Gaussian Distribution
   - ![gaussian_distribution](./gaussian_distribution.png)
 - 클래스 $y$의 샘플이 주어졌을 때, 특성값 x의 likelihood가 다음과 같은 정규분포를 따른다고 가정
