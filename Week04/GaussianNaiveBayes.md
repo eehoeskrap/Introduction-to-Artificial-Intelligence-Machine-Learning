@@ -52,7 +52,7 @@
 - 따라서 모델을 만들 때 데이터가 가우시안 분포(Gaussian Distribution)를 따른다고 가정
 - Gaussian Distribution
   - ![gaussian_distribution](./gaussian_distribution.png)
-- 클래스 $y$의 샘플이 주어졌을 때, 특성값 x의 likelihood가 다음과 같은 정규분포를 따른다고 가정 (
+- 클래스 $y$의 샘플이 주어졌을 때, 특성값 x의 likelihood가 다음과 같은 정규분포를 따른다고 가정
 - ![gaussian_NB](./gaussian_NB.png)
 - 여기서 $\sigma_{y}^{2}$와 $\mu_{y}$는 클래스 y에 대한 특성 $x_j$의 분산과 평균
 - ![gaussian_naive_bayes](./GNB.png)
