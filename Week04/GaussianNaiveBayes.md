@@ -131,7 +131,7 @@
 - 샘플의 index set은 $J$ = {1, ..., $m$}으로 정의되며, $m$은 샘플의 수를 나타냄 
 - 클래스 $c$에서 feature $i$의 category $t$의 확률은 다음과 같이 추정 
 - $P(x_i = t \mid y = c \: ;\, \alpha) = \frac{ N_{tic} + \alpha}{N_{c} + \alpha n_i}$
-  - 여기서 $N_{tic}$ = |{$j \in J \mid x_{ij} = t, y_j = c$}|는 category $t$가 클래스 $c$에 속하는 샘플 $x4$에 나타나는 횟수 
+  - 여기서 $N_{tic}$ = |{$j \in J \mid x_{ij} = t, y_j = c$}|는 category $t$가 클래스 $c$에 속하는 샘플 $x$에 나타나는 횟수 
   - $N_{c} = |\{ j \in J\mid y_j = c\}|$는 클래스 c가 있는 샘플 수
   - $\alpha$는 smoothing parameter
   - $n_i$는 사용가능한 featre category의 수
