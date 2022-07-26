@@ -62,3 +62,21 @@
         위 경사법을 적용하기 위하여 
       - ![4_23_1](./4_23_1.png) 와 같이 정의 
       - 최초 매개변수 $\theta_1$ 값을 임의로 설정하고, 이 점의 좌표를 서서히 움직이면서 함수 $f(\theta)$의 값이 증가하도록 만들며, 이 때 Gradient Ascent를 이용하여 경사 방향으로 움직이도록 설정 
+
+
+### Linear Regression Revisited
+- $\theta$ = $(X^{T}X)^{-1}X^{T}Y$
+- iteration, small step 정할 필요가 없이 $\theta$를 찾을 수 있었으나, x값이 클 경우 즉, 데이터 세트가 무진장 클 경우에 inverse가 쉽지 않음. matrix multiplication이 쉽지 않기 때문에 approximation이 필요함 
+- gradient ascent를 이용하여 approximation 할 수 있음
+  - $\hat\theta$ = $argmin_{\theta}(f-\hat{f})^{2}$ = $argmin_{\theta}(Y-X\theta)^{2}$
+- Logistic Regression의 parameter를 학습하는 방법 
+
+### Logistic Regression 
+- objective : naive Bayes와 logistic regression의 차이
+
+- Gaussian Naive Bayes
+  - ???
+
+- 특정 조건을 만족하는 Gaussian Naive Bayes는 근본적으로 Logistic Regression과 같다
+- 학계에서도 로지스틱 회귀가 Gaussian NB에 비해 더 좋은 성능을 낸다는 것이 알려져 있다
+- 반드시 로지스틱 회귀가 Gaussian NB에 비해 월등한 것은 아니다. 만약 주어진 문제 상황에서 사전 확률(Prior Probability)에 대한 정보가 있어서 이를 응용할 수 있다면, NB Classifier를 이용하는 것이 더 유리
