@@ -39,7 +39,7 @@ https://www.youtube.com/playlist?list=PLbhbGI_ppZISMV4tAWHlytBqNq1-lb8bz
   
   Week 14. Neural Network
   
-##Online Lectures Video :
+## Online Lectures Video :
   You can find Online Lectures on YouTube.
   
   Lecture Video URL : https://www.youtube.com/channel/UC9caTTXVw19PtY07es58NDg
